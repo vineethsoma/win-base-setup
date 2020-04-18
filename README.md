@@ -17,7 +17,7 @@
     * Give windows sudo like capability
   * Miniconda - `sudo choco install miniconda3`
     * Add to Path 
-    * conda init
+    * `conda init`
 * Ubuntu Install
   * Miniconda - `./scripts/miniconda.sh`
 * Setup
