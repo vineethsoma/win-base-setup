@@ -26,6 +26,23 @@ To get it to work I had do in Admin PS -
 Then after downloading the kernal msi, I right click and Repair/Uninstall. 
 And proceeded with installation. 
 
-Then, 
+Then,
 
 `wsl --set-version ubuntu 2`
+
+Looks like it started the conversion - 
+![](2020-04-18-11-30-17.png)
+
+The conversion was done in a about ~ 15 mins
+
+To verify - `wsl -l -v`
+
+![](2020-04-18-11-51-25.png)
+
+
+## To enable Docker WSL2 integration 
+
+https://docs.docker.com/docker-for-windows/wsl-tech-preview/
+
+
+
